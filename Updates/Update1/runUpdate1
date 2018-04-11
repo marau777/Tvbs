@@ -1,0 +1,3 @@
+cd /home/pi/Tvbs/Updates/Update1
+cp /home/pi/Tvbs/Updates/Update1/startc9 /home/pi/c9sdk
+/home/pi/c9sdk/startc9
