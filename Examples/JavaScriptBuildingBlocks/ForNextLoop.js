@@ -42,7 +42,7 @@ for (var i = 0; i < 5; i++)
 {
         /* On for 1 second */
         rpio.write(RedLED, rpio.LOW);
-        rpio.sleep(1);
+       rpio.sleep(1);
         
         /* Off for half a second (500ms) */
         rpio.write(RedLED, rpio.HIGH);

@@ -3,6 +3,7 @@ Description=Cloud9 Web Application Service
  
 [Service]
 ExecStart=/home/pi/c9sdk/startc9
+WorkingDirectory=/home/pi/c9sdk
 StandardOutput=null
  
 [Install]

@@ -1,3 +1,8 @@
 cd /home/pi/Tvbs/Updates/Update1
 cp /home/pi/Tvbs/Updates/Update1/startc9 /home/pi/c9sdk
-/home/pi/c9sdk/startc9
+
+sudo cp /home/pi/Tvbs/Updates/Update1/cloud9.service /lib/systemd/system
+sudo chmod +x /lib/systemd/system/cloud9.service
+
+sudo systemctl enable cloud9.service
+sudo systemctl start cloud9.service
