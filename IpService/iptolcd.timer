@@ -1,0 +1,9 @@
+[Unit]
+Description=Run iptolcd service 30 seconds after boot and 1 min repeat thereafter.
+
+[Timer]
+OnBootSec=30sec
+OnUnitActiveSec=1min 
+
+[Install]
+WantedBy=timers.target

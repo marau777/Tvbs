@@ -1,5 +1,0 @@
-cd /
-cd etc
-sudo python gethostinfo.py
-cd /
-
